@@ -1,0 +1,57 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage{times}
+
+% do not change these values
+\baselineskip 12pt
+\textheight 9in
+\textwidth 6.5in
+\oddsidemargin 0in
+\topmargin 0in
+\headheight 0in
+\headsep 0in
+
+\begin{document}
+
+\title{Efficient Parallel I/O for Cloud Storage}
+\author{Sugang Li$^1$ and Rajesh Gupta$^2$ \\
+\small {\em  $^1$WINLAB, Rutgers University \quad
+          $^2$AT \& T Labs Research} \\ [2mm]
+\small Submission Type: Research
+}
+\date{}
+\maketitle
+
+\begin{abstract}
+\input{src/abstract}
+\end{abstract}
+
+\section{Introduction}
+\input{src/intro}
+\label{sec:intro}
+
+\section{Motivation}
+\input{src/motivation}
+\label{sec:moti}
+
+\section{System Design}
+\include{src/system}
+\label{sec:sys}
+
+\section{Evaluation}
+\include{src/eval}
+\label{sec:eval}
+
+\section{Related Work}
+\include{src/related}
+\label{sec:related}
+
+\section{Conclusion}
+\include{src/conclusion}
+\label{sec:conclusion}
+
+\bibliographystyle{abbrv}
+\bibliography{src/reference}
+
+\end{document}
+
+
